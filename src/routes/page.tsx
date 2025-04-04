@@ -12,7 +12,7 @@ const Index = () => (
     </Helmet>
     <main>
       <div className="title">
-        Welcome to
+        Welcome to the
         <img
           className="logo"
           src="https://lf3-static.bytednsdoc.com/obj/eden-cn/zq-uylkvT/ljhwZthlaukjlkulzlp/modern-js-logo.svg"
