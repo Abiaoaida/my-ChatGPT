@@ -8,8 +8,6 @@
     "start": "modern start",
     "serve": "modern serve",
     "new": "modern new",
-    "lint": "biome check",
-    "prepare": "simple-git-hooks",
     "upgrade": "modern upgrade"
   },
   "engines": {
@@ -24,21 +22,25 @@
     "pre-commit": "npx lint-staged"
   },
   "dependencies": {
+    "@arco-design/web-react": "^2.66.0",
     "@modern-js/runtime": "2.67.0",
+    "axios": "^1.8.4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@modern-js/app-tools": "2.67.0",
     "@modern-js/tsconfig": "2.67.0",
-    "@biomejs/biome": "1.9.4",
-    "typescript": "~5.7.3",
     "@types/jest": "~29.2.4",
     "@types/node": "~18.11.9",
     "@types/react": "^18.3.11",
     "@types/react-dom": "~18.3.1",
+    "http-proxy-middleware": "^3.0.5",
     "lint-staged": "~15.4.0",
+    "rimraf": "^6.0.1",
     "simple-git-hooks": "^2.11.1",
-    "rimraf": "^6.0.1"
+    "typescript": "~5.7.3"
   }
 }

@@ -1,0 +1,13 @@
+.skill-Buttons-area{
+width: 800px;
+display: flex;
+justify-content:space-around;
+margin-top: 28px;
+gap: 12px;
+}
+.ai-programming-Button,.help-write-Button,.picture-create-Button,.ai-search-Button,.ai-reading-Button,.video-create-Button{
+border-radius: 32px;
+color: rgba(0, 0, 0, 0.8)!important;
+border: 1px solid rgba(0, 0, 0, 0.08)!important;
+height: 42px;
+}

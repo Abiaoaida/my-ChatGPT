@@ -1,0 +1,79 @@
+.menu-demo{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+.menu{
+        background-color: rgb(243, 244, 246);
+        width: 279.5px;
+        height: 100%;
+        justify-content: left;
+}
+.menu-icon{
+    width: 36px;
+    height: 36px;
+}
+.menu-title{
+    margin-left: 8px;
+    color: black;
+    font-weight: bold;
+}
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.menu-header-left{
+    display: flex;
+    align-items: center;
+
+}
+#sidebar{
+    border: none;
+    color: rgba(0,0,0,0.3)!important;
+}
+#sidebar:hover{
+background-color: rgba(46, 50, 56, 0.05);
+}
+.menu-item:hover {
+    background-color: rgba(0,0,0,.04) !important
+}
+.menu-item{
+  background-color: transparent !important;
+    border-radius: 12px !important;
+    padding: 8px;
+}
+.arco-menu-selected {
+    color: black !important;
+    background-color: white !important;
+}
+.arco-menu-selected:hover{
+    background-color: white!important;
+}
+.arco-icon-custom {
+font-size: 16px;
+    stroke: transparent !important;
+}
+.arco-icon-first{
+    color: #0057ff!important;
+}
+.menu-item-first{
+    margin-top: 16px;
+    margin-bottom: 6px;
+    padding:8px 6px 8px 6px;
+    background-color: rgba(0,87,255,0.06)!important;
+    color:#0057ff!important;
+    border-radius: 12px!important;
+}
+.menu-item-first:hover{
+    background-color: rgba(0,87,255,0.06)!important;
+}
+hr {
+  border-top: none; /* 去掉上边框 */
+  border-left: none; /* 去掉左边框 */
+  border-right: none; /* 去掉右边框 */
+  border-bottom: 1px solid #D3D3D3; /* 仅设置底部边框为1像素宽的灰色虚线 */
+}
+
