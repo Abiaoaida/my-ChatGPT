@@ -1,0 +1,102 @@
+.chat-input-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px 12px 12px;
+  pointer-events: auto;
+  min-height: 116px;
+  border: 1px solid #ddd; /* 浅灰色边框 */
+  border-radius: 20px; /* 圆角 */
+  flex-direction: column;
+
+}
+#chat-input {
+  width: 798px;
+  height: 24px;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  background-color: transparent;
+}
+.button {
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  color: black;
+}
+#link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+#deep-thought-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 120px;
+  height: 36px;
+}
+#send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: transparent; */
+  /* color: rgba(0, 0, 0, 0.15); */
+  border: none;
+}
+.arco-textarea:focus {
+  border: none !important;
+  padding: 4px 0px;
+}
+.arco-textarea:hover {
+  border: none !important;
+  padding: 4px 0px;
+}
+.arco-textarea {
+  resize: none;
+  padding: 4px 0px !important;
+  border: none !important;
+  max-height: 200px;
+}
+
+.user-div{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.user{
+/* display: flex;
+justify-content: end; */
+background-color: rgba(0, 0, 0, .04);
+border-radius: 12px;
+display: inline-block;
+}
+.doubao{
+  display: flex;
+  justify-content: start;
+flex-direction: column;
+margin-top: 12px;
+padding-left: 8px;
+padding-right: 8px;
+}
+.doubao-button{
+margin-top: 24px;
+display: flex;
+justify-content: start;
+}
+.doubao-div{
+  display: flex;
+  justify-content: start;
+  text-align: left;
+flex-direction: column;
+}

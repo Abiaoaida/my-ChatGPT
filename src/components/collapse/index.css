@@ -1,0 +1,10 @@
+.collapse-title{
+display: flex;
+justify-content: start;
+color: rgba(0, 0, 0, 0.5);
+padding: 7px 12px 7px 12px;
+}
+.collapse-title:hover{
+    cursor: pointer;
+
+}

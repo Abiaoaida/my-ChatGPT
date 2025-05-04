@@ -54,7 +54,7 @@
     },
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome",
+    "editor.defaultFormatter": "numso.prettier-standard-vscode",
     "editor.codeActionsOnSave": {
       "quickfix.biome": "explicit",
       "source.organizeImports": "never",
@@ -76,7 +76,7 @@
     },
   },
   "[javascript]": {
-    "editor.defaultFormatter": "biomejs.biome",
+    "editor.defaultFormatter": "numso.prettier-standard-vscode",
     "editor.codeActionsOnSave": {
       "quickfix.biome": "explicit",
       "source.organizeImports": "never",
